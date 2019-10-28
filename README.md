@@ -4,7 +4,7 @@ Slides for Flutter Presentation to GDG Boulder Oct 2019. Summarizing news in Flu
 
 ## Getting Started
 
-This project is a starting point for a Flutter web application it's not refined but it has some good examples on how to implement some web specific features. It was created to run in your browser (Chrome is best). To run the project, make sure you have Flutter installed and you are on the Master channel. Then run the following in your terminal.
+This project is a starting point for a Flutter web application. It's not refined but it has some good examples on how to implement some web specific features. It was created to run in your browser (Chrome is best). To run the project, make sure you have Flutter installed and you are on the Master channel. Then run the following in your terminal.
 
 `flutter run -d chrome`
 
