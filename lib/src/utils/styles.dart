@@ -5,7 +5,7 @@ import './custom_colors.dart';
 const TextStyle ryHeadlineLargeText = TextStyle(fontSize: 48.0, color: CustomColors.colorBlue, height: 1.1);
 const EdgeInsets slidePadding = EdgeInsets.only(left: 30, right: 30, top: 30, bottom: 60);
 const TextStyle modalHeaderStyle = TextStyle(fontSize: 22.0, color: CustomColors.colorPrimary, height: 1.4, fontWeight: FontWeight.w600);
-const TextStyle modalSourceStyle = TextStyle(fontSize: 18.0, color: CustomColors.colorPrimary);
+const TextStyle modalSourceStyle = TextStyle(fontSize: 18.0, color: CustomColors.colorPrimary, height: 1.6);
 
 TextStyle getHeadlineTextStyle({@required double deviceWidth}) {
   return TextStyle(fontSize: deviceWidth * .04, color: CustomColors.colorBlue, height: 1.2);

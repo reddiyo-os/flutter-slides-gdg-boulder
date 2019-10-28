@@ -46,7 +46,10 @@ class DartUpdates extends StatelessWidget {
             ),
             Row(
               children: <Widget>[
-                Text('• Collection if and for', style: _bulletStyle),
+                Text('• Collection ', style: _bulletStyle),
+                Text('if', style: TextStyle(fontSize: _deviceWidth * .025, height: 1.6, backgroundColor: CustomColors.colorWashMedium)),
+                Text(' and ', style: _bulletStyle),
+                Text('for', style: TextStyle(fontSize: _deviceWidth * .025, height: 1.6, backgroundColor: CustomColors.colorWashMedium)),
                 IconButton(
                   icon: const Icon(Icons.launch),
                   color: CustomColors.colorGold,
@@ -137,6 +140,7 @@ class SpreadOperator extends StatelessWidget {
           Image.asset(
             'assets/images/spread_operator.png',
           ),
+          Divider(color: customPrimary,),
           Text('https://youtu.be/J5DQRPRBiFI', style: modalSourceStyle)
         ],
       )
@@ -155,7 +159,7 @@ class CollectionBeforeAfter extends StatelessWidget {
         children: <Widget>[
           Text('Collection Construction Before/After', style: modalHeaderStyle),
           Image.asset(
-            'assets/images/spread_and_for_loop.jpg',
+            'assets/images/if_and_for_loop.jpg',
           ),
           Text('https://youtu.be/J5DQRPRBiFI', style: modalSourceStyle)
         ],

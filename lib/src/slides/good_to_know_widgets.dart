@@ -88,7 +88,11 @@ class KeyboardDialog extends StatelessWidget {
           Divider(color: customPrimary,),
           Image.asset('assets/images/RawKeyBoardListener2.png'),
           Divider(color: customPrimary,),
-          Text('https://youtu.be/IyFZznAk69U', style: modalSourceStyle)
+          SelectableText(
+            'https://youtu.be/IyFZznAk69U',
+            style: modalSourceStyle,
+            onTap: () {window.open('https://youtu.be/IyFZznAk69U', 'tab');}
+          )
         ],
       )
     );

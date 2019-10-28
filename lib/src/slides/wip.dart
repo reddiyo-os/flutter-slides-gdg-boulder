@@ -22,6 +22,7 @@ class WorkInProgress extends StatelessWidget {
             Text('• Plugin System Not Robust Yet', style: _bulletStyle),
             Text('• Hash Bang Routing Only', style: _bulletStyle),
             Text('• Performance', style: _bulletStyle),
+            Text('• Merging to Master != Production Ready', style: _bulletStyle),
           ]
         )),
     ]);

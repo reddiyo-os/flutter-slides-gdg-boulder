@@ -53,6 +53,8 @@ class Predictions extends StatelessWidget {
             Text('   - Mobile devs will love it', style: _smallBulletStyle), 
             SizedBox(height: 5),
             Text('   - Web devs will be slower to adopt', style: _smallBulletStyle),
+            SizedBox(height: 5),
+            Text('   - Beta announcement at Flutter Interact', style: _smallBulletStyle),
           ]
         )),
     ]);
